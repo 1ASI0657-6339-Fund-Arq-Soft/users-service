@@ -6,7 +6,6 @@ import pe.edu.upc.center.seniorhub.users.domain.model.valueobjects.ContactInfo;
 public record UpdateDoctorResource(
         String licenseNumber,
         String specialty,
-        //UpdateScheduleResource schedule,
         FullName fullName,
         ContactInfo contactInfo
 ) {}
